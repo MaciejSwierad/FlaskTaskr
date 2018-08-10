@@ -1,7 +1,8 @@
 import datetime
 from flask import Flask, request, render_template
-from flask.ext.sqlalchemy import SQLAlchemy
-from flask.ext.bcrypt import Bcrypt
+#from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
 app.config.from_pyfile('_config.py')
@@ -10,9 +11,11 @@ db = SQLAlchemy(app)
 
 from project.users.views import users_blueprint
 from project.tasks.views import tasks_blueprint
+from project.api.views import api_blueprint
 
 app.register_blueprint(users_blueprint)
 app.register_blueprint(tasks_blueprint)
+app.register_blueprint(api_blueprint)
 
 @app.errorhandler(404)
 def page_not_found(error):
