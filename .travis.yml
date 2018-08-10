@@ -12,4 +12,6 @@ deploy:
     secure: eChx7ajY8NFCErnN2N1SbzCCQ/xGu6xvMbkW325tGrjwM1vsb4JwBVDTY7mtgJnN3Q1ai1YTZGwevW9EETcoXYObVyTN6sgBOBQNuN/Km9T9d5QSjxxFUQJabBq8KU1AjrywEwTzcJ87aBCP4W3qFPFaj+ulCVmlvnItFblW/WM3HxTCmEdxUUc7t3XG8dzZ1yi8T8CHYjSRxEQ4dfN1oSzWA+IHG8xuydnRUBeyfHX53KpdRvdQcMZJ8cDciMZbAGyEF2cMMCCoM5pX/tlWDJQ0vlIsFSj9cdh0dbFPw+JpXWE6M+aymnzzvY+9YSZ3a4h8fSUjnDooboPiyTc62WRe5B28BNzgjK3LbdsmFgITcaylSgXJOva22hwr0+4R8Bqj/HeBNDWZqu2BjNQOWJalDt7t3hrlmQ+5w7CGIzFPxcXWFG/b6z9Y5tnt7rtxtN9nRtcZHkBnUFNeeslGeCu3Sfr4Pu9uH5JtNLj3Ubvzdw7mky0+Q+iCyRCfdRnorWQTTLRfECw6ZNkDMgPgY505Hk/cErKSLWHKqYUnvgmgtEttSjQA44/B+HIm7EdgPKdDbuF2BB6GhYRz+oGMasLMT1Tw0IzoLpmIu72S5nGLtRdp9R9L+YXLyq+XH9jEsmheNm8/HzjLgs58VaD1E1Vpjhc6/U3AhAO0W1upp5o=
   app: FlaskTaskr
   on:
+    branch: master
+    python: '3.6'
     repo: MaciejSwierad/FlaskTaskr
