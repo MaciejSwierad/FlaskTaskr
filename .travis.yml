@@ -21,5 +21,6 @@ deploy:
   app: peaceful-depths-74245
   
   on:
-  
+    branch: master
+    python: '3.6'
     repo: MaciejSwierad/FlaskTaskr
